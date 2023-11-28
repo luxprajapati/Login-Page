@@ -1,0 +1,135 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+.instagram{
+  font-family: "Oleo Script";
+  font-size: 50px;
+  text-align: center;
+  color: rgb(69, 64, 64);
+  user-select: none;
+  padding: 15px;
+  /* padding-bottom: 30px; */
+}
+.imgInsta{
+  height: 75px;
+}
+
+.containerOne{
+  border: 1px solid rgba(31, 31, 31, 0.181);
+  width: 355px;
+  height: 399px;
+  margin:auto;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.containerTwo{
+  border: 1px solid rgba(31, 31, 31, 0.181);
+  width: 355px;
+  height: auto;
+  margin: 10px auto;
+  padding: 22px;
+  font-family: "Poppins";
+  font-size: small;
+  border-radius: 5px;
+}
+.signUp{
+  color: royalblue;
+  /* font-variant: small-caps; */
+  font-size: 14px;
+  font-weight:500;
+  cursor: pointer;
+}
+
+.inputFields{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.inputData{
+  width: 268px;
+  height: 37px;
+  margin-bottom: 10px;
+  background-color: rgba(218, 221, 225, 0.237);
+  border: 1px solid rgba(128, 128, 128, 0.415);
+  border-radius: 2px;
+  padding: 10px;
+  overflow: hidden;
+  text-align: left;
+  outline: none;
+}
+.btn{
+  width: 267px;
+  border-radius:7px;
+  height: 34px;
+  background-color: rgb(80, 180, 242);
+  outline: none;
+  border: none;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin:0 auto;
+  margin-top: 9px;
+  cursor: pointer;
+}
+.or{
+  font-size: small;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 20px;
+  font-weight: 900;
+  font-style: normal;
+  font-variant: small-caps;
+  color: rgb(95, 93, 93);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.underline{
+  width: 135px;
+  padding:0px 10px;
+}
+
+
+.anotherLoginOption{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  color: rgb(4, 43, 95);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+.brandlogo{
+  /* margin: 10px; */
+  padding-right: 5px;
+  cursor: pointer;
+}
+.text:visited{
+  color: purple;
+}
+.forgotPassword{
+  color:  rgb(4, 43, 95);
+  cursor: pointer;
+  font-family: 'Poppins';
+  font-size: smaller;
+}
+
+.errorMsg{
+  color: red;
+}

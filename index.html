@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form method="get" id="login-form" class="login-form" role="main">
+        <div class="containerOne" id="login-form">
+          <div class="instagram">
+            <img
+              class="imgInsta"
+              src="Screenshot 2023-11-27 192404.png"
+              alt=""
+            />
+          </div>
+          <div class="inputFields">
+            <input
+              id="username"
+              class="inputData"
+              type="text"
+              placeholder="Phone number, username, or email"
+              required
+            />
+            <input
+              id="password"
+              class="inputData"
+              type="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <button class="btn" type="submit">Log in</button>
+          <div class="or">
+            <img class="underline" src="underline.png" alt="" />
+            OR
+            <img class="underline" src="underline.png" alt="" />
+          </div>
+          <div class="anotherLoginOption">
+            <i class="fa-brands fa-meta brandlogo"></i>
+            <div class="text">Log in with Meta</div>
+          </div>
+          <div id="error" class="errorMsg"></div>
+          <div class="forgotPassword">Forgot Password?</div>
+        </div>
+      </form>
+
+      <div class="containerTwo">
+        <div>Don't have an account? <span class="signUp">Sign up</span></div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/dccd8322a4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
