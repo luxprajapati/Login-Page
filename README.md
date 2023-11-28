@@ -16,7 +16,7 @@ The Login Page project aims to replicate the user interface of the Instagram log
 
 To experience the Login Page:
 
-1. Open the [Login Page](https://example.com/login-page) link in your web browser.
+1. Open the [Login Page](https://lux-prajapati-login.netlify.app/) link in your web browser.
 
 2. Enter your username and password in the respective fields.
 
@@ -38,15 +38,7 @@ No installation is required to access the Login Page. It's a web-based project a
 
 Contributions to enhance the login page design or functionality are welcome! Feel free to open an issue or submit a pull request.
 
-## License
-
-This project is open-source and uses the [MIT License](LICENSE).
 
 ## Credits
 
-The Login Page project is developed and maintained by [Your Name](https://github.com/your-username).
-
-## Support
-
-If you have any questions or encounter issues while using the Login Page, please contact us at [your@email.com](mailto:your@email.com).
-kk 
+The Login Page project is developed and maintained by [Lux Prajapati](https://github.com/luxprajapati).
